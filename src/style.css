@@ -1,0 +1,70 @@
+*{
+  /*margin: 0;padding: 0;*/
+  box-sizing: border-box;
+}
+
+body {
+  background: #0D1117;
+}
+button{
+  border: none;
+  outline: none;
+}
+
+#container {
+  border: 1px solid #666;
+  width: 628px;
+  height: 142px;
+  display: grid;
+  grid-template-columns: repeat(53, 10px);
+  grid-template-rows: repeat(7, 10px);
+  grid-auto-flow: column dense;
+  gap: 1px;
+  grid-template-areas:'a b'
+}
+
+.cell {
+  background: #161B22;
+  border-radius: 2px;
+}
+#record{
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 16px;
+  background: inherit;
+  color: rgb(31, 111, 235);
+  margin: 10px  0;
+  padding: 4px 10px;
+}
+#record:hover{
+  background: rgba(22, 27, 34,.5);
+  box-shadow: 0 0 2px 1px #333;
+}
+#record:active{
+  background: rgba(22, 27, 34,.9);
+  box-shadow: 0 0 6px 1px #333;
+}
+
+
+.done-2 {
+  background: #aff5b4;
+}
+.done{
+  background: #aff5b4;
+}
+.done-little {
+  background: blue;
+}
+/*#aff5b4*/
+/*#7ee787*/
+/*#56d364*/
+/*#3fb950*/
+/*#2ea043*/
+/*#238636*/
+/*#196c2e*/
+/*#0f5323*/
+/*#033a16*/
+/*#04260f*/
+
+
